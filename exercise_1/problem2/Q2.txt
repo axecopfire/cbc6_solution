@@ -1,0 +1,8 @@
+/*2) create an html file
+	internally, create a variable that stores a string
+		add a string to your variable (+)
+	log the answer to the console
+	load it into the browser to check the answer*/
+
+var X = "";
+console.log(X + "hello");
