@@ -9,8 +9,8 @@
 ***
 use many asteriks for horizontal rules
 ***
-*use
-*single
-*asteriks
-*for 
-*lists
+* use
+* single
+* asteriks
+* for 
+* lists
