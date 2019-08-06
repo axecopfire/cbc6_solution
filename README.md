@@ -14,3 +14,6 @@ use many asteriks for horizontal rules
 * asteriks
 * for 
 * lists
+1 use
+1 number 1
+1 for ordered lists
