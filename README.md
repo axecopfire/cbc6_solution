@@ -1,2 +1,3 @@
 # cbc6_solution
-solution bootcamp6 exercise
+
+solutions to code boot camp 6 exercises!
