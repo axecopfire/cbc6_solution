@@ -25,5 +25,4 @@ use many asteriks for horizontal rules
 *emphasized text goes between asteriks**
 
 **strong text goes between double asteriks**
-
-  <ul><li>test-a-rino</li><li>spoon</li></ul>
+ <ul><li>test-a-rino</li><li>spoon</li></ul>
