@@ -22,7 +22,7 @@ use many asteriks for horizontal rules
 1. number 1 followed by le period
 1. for ordered lists
 
-*emphasized text goes between asteriks**
+*emphasized text goes between asteriks*
 
 **strong text goes between double asteriks**
 <p>MEGA TEST</p>
