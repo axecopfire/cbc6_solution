@@ -16,5 +16,5 @@ use many asteriks for horizontal rules
 * lists
 
 1. use
-1. intergers in order
+1. number 1 followed by le period
 1. for ordered lists
