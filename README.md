@@ -1,3 +1,16 @@
-# cbc6_solution
-
-solutions to code boot camp 6 exercises!
+# num of octothorps for headings
+***
+# markdown heading 1
+## markdown heading 2
+### markdown heading 3
+#### markdown heading 4
+##### markdown heading 5
+###### markdown heading 6
+***
+use many asteriks for horizontal rules
+***
+*use
+*single
+*asteriks
+*for 
+*lists
