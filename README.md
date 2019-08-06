@@ -26,4 +26,4 @@ use many asteriks for horizontal rules
 
 **strong text goes between double asteriks**
 
-  <p>test-a-rino</p>
+  <ul><li>test-a-rino</li><li>spoon</li></ul>
