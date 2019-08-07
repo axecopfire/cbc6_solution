@@ -71,3 +71,100 @@ console.log(X + Y);
 ```
 
 * **Key 2**
+
+```javascript
+//Question 1
+var i = 2;
+i += 5;
+i *= 2;
+console.log(i);
+console.log(i % 3);
+// expected output remainder 2
+console.log(i % 2);
+// expected output remainder 0 cuz its like even or whatever
+```
+
+```javascript
+//Question 2
+var X = 13;
+if(X % 2 === 0) {
+	console.log(X);
+}
+else {
+	console.log(X + "is not even.");
+};
+```
+
+```javascript
+//Question 3
+var X = 13;
+if(X % 2 === 0) {
+	console.log(X);
+}
+else {
+	console.log(X + " is not even.");
+};
+```
+
+```javascript
+//Question 4
+var X = 14;
+if(X % 2 === 0 && X % 5 === 0) {
+	console.log(X + " is evenly divisible by 2 and 5!");
+}
+else if(X % 5 === 0 && X % 2 !== 0) {
+	console.log(X + " is divisible by 5 but not 2.");
+}
+else if(X % 2 === 0 && X % 5 !== 0) {
+	console.log(X + " is divisible by 2 but not 5.");
+}
+// This could just be an else statement but needed a logical operator.
+// for the question #4.
+else if(X % 2 !== 0 && X % 5 !== 0){
+	console.log(X + " is NOT divisible by 2 or 5.");
+};
+```
+
+```javascript
+//Question 5
+var X = 14;
+
+// MULTIPLE IF STMTS
+console.log("multiple if statements returns:");
+if(X > 1) {
+	console.log(X + " is greater than 1.");
+};
+if(X > 5) {
+	console.log(X + " is greater than 5.");
+};
+if(X > 10) {
+	console.log(X + " is greater than 10.");
+};
+
+
+// multiple if statements will continue to run 
+// the subsequent statements after regardless of
+// the previous statements boolean value.
+
+// conditional statements will short circuit 
+// and break out of the conditional statement 
+// once one of the conditional is found to be 
+// true. 
+
+// This is demonstrated by the example returned to the console.
+
+
+// SINGLE CONDITIONAL STMT
+console.log("single conditional statement returns:");
+if(X > 1) {
+	console.log(X + " is greater than 1.");
+}
+else if(X > 5) {
+	console.log(X + " is greater than 5.");
+}
+else if(X > 10) {
+	console.log(X + " is greater than 10.");
+};
+```
+
+* **Key 3**
