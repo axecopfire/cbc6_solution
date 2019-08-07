@@ -48,25 +48,25 @@
 * **Key 1**
 
 ```javascript
-//Question 1
+//1
 "hello" + "world";
 ```
 
 ```javascript
-// Question 2
+//2
 var X = "";
 console.log(X + "hello");
 ```
 
 ```javascript
-// Question 3
+//3
 var X = "string";
 var Y = 7;
 console.log(X * Y);
 ```
 
 ```javascript
-// Question 4
+//4
 var X = 2;
 var Y = true;
 console.log(X + Y);
@@ -75,7 +75,7 @@ console.log(X + Y);
 * **Key 2**
 
 ```javascript
-//Question 1
+//1
 var i = 2;
 i += 5;
 i *= 2;
@@ -87,7 +87,7 @@ console.log(i % 2);
 ```
 
 ```javascript
-//Question 2
+//2
 var X = 13;
 if(X % 2 === 0) {
 	console.log(X);
@@ -98,7 +98,7 @@ else {
 ```
 
 ```javascript
-//Question 3
+//3
 var X = 13;
 if(X % 2 === 0) {
 	console.log(X);
@@ -109,7 +109,7 @@ else {
 ```
 
 ```javascript
-//Question 4
+//4
 var X = 14;
 if(X % 2 === 0 && X % 5 === 0) {
 	console.log(X + " is evenly divisible by 2 and 5!");
@@ -128,7 +128,7 @@ else if(X % 2 !== 0 && X % 5 !== 0){
 ```
 
 ```javascript
-//Question 5
+//5
 var X = 14;
 
 // MULTIPLE IF STMTS
