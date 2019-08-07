@@ -2,7 +2,8 @@
 
 ## Exercise 
 
-* Exercise 1
+1. **Exercise**
+
 	1. in the browser add 2 strings together and return the answer
 
 	1. Create an HTML File
@@ -20,7 +21,8 @@
 	1. **bonus** in your external javascript file 
 		* add 2 + true and see what you get
 
-* Exercise 2
+1. **Exercise** 
+
 	1. create a counter variable with the value of 2
 		* add 5 to it
 		* then multiply that result by 2
@@ -41,7 +43,7 @@
 
 ## Answer 
 
-* Key 1
+* **Key 1**
 
 ```javascript
 //Question 1
@@ -68,4 +70,4 @@ var Y = true;
 console.log(X + Y);
 ```
 
-* Key 2
+* **Key 2**
