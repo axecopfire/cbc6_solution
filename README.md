@@ -41,7 +41,7 @@
 
 ## Answer 
 
-1. Key 1
+* Key 1
 
 ```javascript
 //Question 1
@@ -68,4 +68,4 @@ var Y = true;
 console.log(X + Y);
 ```
 
-1. Key 2
+* Key 2
