@@ -166,5 +166,3 @@ else if(X > 10) {
 	console.log(X + " is greater than 10.");
 };
 ```
-
-* **Key 3**
