@@ -1,6 +1,8 @@
-# Week 3
+# ROUGH DRAFT
 
-## Exercise 
+## Week 3
+
+### Exercise 
 
 1. **Exercise**
 
@@ -41,7 +43,7 @@
 	1. create 3 if statements back to back. Comment the difference between multiple if statements and 1 conditional statement. 
 
 
-## Answer 
+### Answer 
 
 * **Key 1**
 
