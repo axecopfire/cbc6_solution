@@ -41,6 +41,8 @@
 
 ## Answer 
 
+1. Key 1
+
 ```javascript
 //Question 1
 "hello" + "world";
@@ -65,3 +67,5 @@ var X = 2;
 var Y = true;
 console.log(X + Y);
 ```
+
+1. Key 2
