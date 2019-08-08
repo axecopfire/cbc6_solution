@@ -5,7 +5,7 @@
 "Hello" + "World";
 ```
 
-1. create an html file
+2. create an html file
 	* internally, create a variable that stores a string 
 		* add a string to your variable(+)
 	* log the answer to the console
@@ -15,7 +15,7 @@ var X = "";
 console.log(X + "hello");
 ```
 
-1. link to an external javascript file
+3. link to an external javascript file
 	* create a variable that stores a string
 	* create a variable that stores an integer
 	* multiply those two variables together (`*`)
@@ -27,7 +27,7 @@ var Y = 7;
 console.log(X * Y);
 ```
 
-1. **bonus** in your external javascript file 
+4. **bonus** in your external javascript file 
 	* add `2 + true` and see what you get
 ```javascript
 var X = 2;
@@ -55,7 +55,7 @@ console.log(i % 2);
 // expected output remainder 0 because its an even number
 ```
 
-1. create an if statement that tests if your variable modulus 2 returns 0
+2. create an if statement that tests if your variable modulus 2 returns 0
 	* log in the console the answer
 ```javascript
 var X = 12;
@@ -64,7 +64,7 @@ if(X % 2 === 0) {
 };
 ```
 
-1. create an `else` statement that logs that the variable was not even
+3. create an `else` statement that logs that the variable was not even
 ```javascript
 var X = 13;
 if(X % 2 === 0) {
@@ -75,7 +75,7 @@ else {
 };
 ```
 
-1. create a conditional statement that tests the state of your variable in 4 different ways
+4. create a conditional statement that tests the state of your variable in 4 different ways
 	* in each of them link 2 comparisons together using logical operators
 ```javascript
 var X = 14;
@@ -95,7 +95,7 @@ else if(X % 2 !== 0 && X % 5 !== 0){
 };
 ```
 
-1. create 3 if statements back to back. Comment the difference beween multiple if statements and 1 conditional statement. 
+5. create 3 if statements back to back. Comment the difference beween multiple if statements and 1 conditional statement. 
 ```javascript
 var X = 14;
 
