@@ -1,3 +1,7 @@
+#ROUGH DRAFT 2.0
+
+# WEEK 3
+
 ## Answer 
 
 1. in the browser add 2 strings together and return the answer
