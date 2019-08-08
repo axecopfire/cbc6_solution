@@ -536,5 +536,118 @@ function out(){
 
 1. change styles of 3 seperate elements using javascript
 ```HTML
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
 
+	<h1 id="boost">HEADING</h1>
+
+	<p>turbos</p>
+
+	<ul>
+		<li class="stuff">apples</li>
+		<li class="stuff">bananas</li>
+		<li class="stuff">cucumbers</li>
+	</ul>	
+
+<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
+```
+
+```javascript
+document.getElementById("boost").style.color = "green";
+document.querySelector("p").style.fontWeight = "bold";
+var X = document.getElementsByClassName("stuff");
+for(var i = 0; i < X.length; i++){
+	X[i].style.listStyle = "none";
+	X[i].style.textDecoration = "line-through";
+};
+```
+
+2.  change the class name and text of a child or sibiling of each of the above elements 
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.newClassName {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<h1 id="boost">HEADING</h1>
+
+	<p>turbos</p>
+
+	<ul>
+		<li class="stuff">apples</li>
+		<li class="stuff">bananas</li>
+		<li class="stuff">cucumbers</li>
+	</ul>	
+
+<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
+```
+```javascript
+document.getElementsByClassName("stuff")[0].className = "newClassName";
+document.getElementsByClassName("stuff")[1].innerHTML = "SOME NEW TEXT";
+```
+
+## Answer
+
+1. add an event listener to an element so that when you click it, another element's style changes. 
+```HTML 
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<p id="element">an element</p>
+
+	<p id="notSame">a completely <em>different</em> element</p>
+
+<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
+```
+```javascript
+document.getElementById("element").addEventListener("click", function(){
+	document.getElementById("notSame").style.color = "blue";
+});
+```
+
+2. create a list with at least 3 elements
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<p id="element">an element</p>
+
+	<p id="notSame">a completely <em>different</em> element</p>
+
+<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
+```
+```javascript
+document.getElementById("element").addEventListener("click", function(){
+	var list = document.createElement("ul");
+	var listItem = document.createElement("li");
+	
+});
 ```
